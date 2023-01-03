@@ -1,0 +1,17 @@
+.header{
+    text-align: center;
+    background-color: aqua;
+    color: rebeccapurple;
+}.c1{
+    text-align: center;
+}.footer{
+    text-align: center;
+    background-color: aqua;
+    color: rebeccapurple;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+}
+.c2{
+    text-align: center;
+}

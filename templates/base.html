@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-cookies</title>
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+</head>
+<body>
+    <div>
+        <div class="header">
+            <h1>Django Framework</h1>
+        </div>
+        <div class="sticy-top">
+            <a href="{% url 'app1:signup' %}" class="btn btn-success">signup</a>
+            <a href="{% url 'app1:login' %}" class="btn btn-info">login</a>
+        </div>
+        <div class="c1">
+            {% block b1 %}
+            {% endblock b1 %}
+        </div>
+        <div class="footer">
+            <h1>Follow us on Instagram</h1>
+        </div>
+    </div>
+</body>
+</html>
